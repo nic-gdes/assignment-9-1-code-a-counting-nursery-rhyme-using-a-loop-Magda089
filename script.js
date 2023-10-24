@@ -4,7 +4,7 @@ var count = 5;
 const list = document.querySelector('#list');
 
 for(var count = 5; count >= 0; count--) {
-   let textString = '${ count } little ducks went out one day, Over the hill and far away, Mother duck said, Quack, quack, quack, but only ${ count - 1 } little ducks came back.'
+   let textString = `${ count } little ducks went out one day, Over the hill and far away, Mother duck said, Quack, quack, quack, but only ${ count - 1 } little ducks came back.`
 
    const verse = document.createElement ('p');
    verse.textContent = textString;
